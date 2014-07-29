@@ -27,8 +27,17 @@ h3{
 
 .total{
 	background-color: white;
-	font-color: black;
+	color: black;
 	font-weight: bold;
 	padding: 5px;
 
+}
+
+.button{
+	background-color: purple;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px;
+	font-style: Georgia;
 }
