@@ -4,20 +4,29 @@ body{
 
 h1{
 	font-family: "Open Sans";
-	font-size:24px;
+	font-size:27px;
 	color: purple;
+	margin-top: 25px;
 }
 
 h2{
-	font-family: "Open Sans";
-	font-size: 18px;
+	font-size:19px;
+	font-weight:601;
 }
 
-h3{
+h3 {
 	font-family: "Open Sans";
-	font-size: 14px;
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+
+p {
+	font-family: "Open Sans";
+	font-size: 13px;
 	font-style: italic;
 	font-weight: normal;
+	color: #999;
+	margin-top: 2px;
 }
 
 span{
@@ -32,8 +41,10 @@ span{
 	color: purple;
 	background-color:#D9E3E5;
 	font-weight: normal;
-	padding: 5px;
+	padding: 4px;
 	border-radius: 10px;
+	border-color: #999;
+	border-display:inline;
 }
 
 .total{
@@ -54,4 +65,11 @@ span{
 	font-style: "Open Sans";
 	border-color: white;
 	border-radius: 8px;
+}
+
+.label {
+	font-size: 14px;
+	font-style: normal;
+	margin-left: 3px;
+	font-weight: 500;
 }

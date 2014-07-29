@@ -3,45 +3,53 @@
 <link type="text/css"; rel="stylesheet" href="index.css">
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <form>
-	<h1>How much money should I bring?<h1>
-		<h3>Although the program covers basic necessities, many cherubs choose to bring spending money. The budget calculator represents spending averages throughout the five-week program. Try our budget reccomendations. <br>
-		</h3>
+	<h1>How much money should I bring?</h1>
+		<p>Although the program covers basic necessities, many cherubs choose to bring spending money. The budget calculator represents spending averages throughout the five-week program. Try our budget reccomendations. <br>
+		</p>
 
-	<h2>How could I budget &nbsp;&nbsp;
-		<div class="example" id="one" style="border:2px solid black;display:inline-block">$100</div> &nbsp;&nbsp;&nbsp;&nbsp;
-		<div class="example" id="two" style="border:2px solid black;display:inline-block">$200</div> &nbsp;&nbsp;&nbsp;&nbsp;
-		<div class="example" id="three"style="border:2px solid black;display:inline-block">$300</div>&nbsp;&nbsp
+	<h2>See a sample budget of &nbsp;&nbsp;
+		<div class="example" id="one" style="border:1px solid grey;display:inline-block">$100</div> &nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="example" id="two" style="border:1px solid grey;display:inline-block">$200</div> &nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="example" id="three"style="border:1px solid grey;display:inline-block">$300</div>&nbsp;&nbsp;
 		</h2> 
-		<h3><br>These recommendations may not reflect your specific needs. specific to your needs. Cherubs should be prepared to spend more or less than the estimate. </h3>
 
-	<h2>How many loads of laundry will you wash each week?</h2> <input type="text" name="laundry"><br>
+	<h2>Or customize your own budget below:</h2>
+		<!-- <h3>If these recommendations do not reflect your specific needs, enter and choose your spending preferences. Cherubs should be prepared to spend more or less than the estimate. </h3> -->
 
-	<h2>How many times will you dine out each week?</h2> <input type="text" name="dineout">
+	<!-- <h3>How many loads of laundry will you wash each week?</h3> <input type="text" name="laundry"><br> -->
+	<h3>Laundry</h3> 
+	<p class="explanation">How many times will you do laundry each week?</p>
+	<input type="text" name="laundry"><br>
 
-	<h2>Snacks</h2>
-		<h3>Check all the snacks you would like to buy.</h3>
-			<input type="checkbox" name="coffee" value="coffee">&nbsp;Coffee<br>
-			<input type="checkbox" name="fresh" value="fresh">&nbsp;Fresh fruits and vegetables<br>
-			<input type="checkbox" name="icecream" value="icecream">&nbsp;Ice Cream<br>
-			<input type="checkbox" name="junk" value="junk">&nbsp;Chips, cookies and other junk food<br>
+	<!-- <h3>How many times will you dine out each week?</h3> <input type="text" name="dineout"> -->
+	<h3>Dining out</h3> 
+	<p class="explanation">How many times will you dine out each week?</p>
+	<input type="text" name="dineout"><br>
 
-	<h2>Northwestern Souvenirs</h2>
-		<h3>Check all the souvenirs you would like to buy.</h3>
-			<input type="checkbox" name="sweatshirt" value="sweatshirt">&nbsp;Sweatshirt <span>($45)</span><br>
-			<input type="checkbox" name="tshirt" value="tshirt">&nbsp;T-shirt <span>($20)</span><br>
-			<input type="checkbox" name="sweatpants" value="sweatpants">&nbsp;Sweatpants <span>($35)</span><br>
-			<input type="checkbox" name="waterbottle" value="waterbottle">&nbsp;Water Bottle <span>($25)</span><br>
+	<h3>Snacks</h3>
+		<p class="explanation">Check all the snacks you would like to buy.</p>
+			<input type="checkbox" name="coffee" value="coffee"><span class="label">Coffee<br></span>
+			<input type="checkbox" name="fresh" value="fresh"><span class="label">Fresh fruits and vegetables<br></span>
+			<input type="checkbox" name="icecream" value="icecream"><span class="label">Ice Cream<br></span>
+			<input type="checkbox" name="junk" value="junk"><span class="label">Chips, cookies and other junk food<br></span>
 
-	<h2>Other Expenses</h2>
-		<h3>What do you plan to purchase in your free time? Check all that apply.</h3>
-			<input type="checkbox" name="movie" value="movie">&nbsp;Movie Ticket<br>
-			<input type="checkbox" name="clothes" value="clothes">&nbsp;Clothes<br>
-			<input type="checkbox" name="books" value="books">&nbsp;Books<br>
-			<input type="checkbox" name="magazine" value="magazine">&nbsp;Newspapers and Magazines<br>
-			<input type="checkbox" name="emergency" value="emergency">&nbsp;Emergency Money<br>
+	<h3>Northwestern Souvenirs</h3>
+		<p class="explanation">Check all the souvenirs you would like to buy.</p>
+			<input type="checkbox" name="sweatshirt" value="sweatshirt"><span class="label">Sweatshirt <span>($45)</span><br></span>
+			<input type="checkbox" name="tshirt" value="tshirt"><span class="label">T-shirt <span>($20)</span><br></span>
+			<input type="checkbox" name="sweatpants" value="sweatpants"><span class="label">Sweatpants <span>($35)</span><br></span>
+			<input type="checkbox" name="waterbottle" value="waterbottle"><span class="label">Water Bottle <span>($25)</span><br></span>
+
+	<h3>Other Expenses</h3>
+		<p class="explanation">What do you plan to purchase in your free time? Check all that apply.</p>
+			<input type="checkbox" name="movie" value="movie"><span class="label">Movie Ticket<br></span>
+			<input type="checkbox" name="clothes" value="clothes"><span class="label">Clothes<br></span>
+			<input type="checkbox" name="books" value="books"><span class="label">Books<br></span>
+			<input type="checkbox" name="magazine" value="magazine"><span class="label">Newspapers and Magazines<br></span>
+			<input type="checkbox" name="emergency" value="emergency"><span class="label">Emergency Money<br></span>
 
 	<br><input class="button" type="button" value="Calculate my budget" id="calculate"><br>
-		<br><div class="total"id="totalPrice" style="border:2px solid black;display:inline-block">Total</div>
+		<br><div class="total"id="totalPrice" style="border:2px solid black;display:none">Total</div>
 
 </form>
 <script src="script.js"></script>
