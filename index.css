@@ -10,7 +10,7 @@ h1{
 
 h2{
 	font-family: "Open Sans";
-	font-size: 16px;
+	font-size: 18px;
 }
 
 h3{
@@ -23,10 +23,11 @@ h3{
 .example{
 	font-style: "Open Sans";
 	font-size: 18px;
-	color: white;
-	background-color:purple;
-	font-weight: bold;
+	color: purple;
+	background-color:#D9E3E5;
+	font-weight: normal;
 	padding: 5px;
+	border-radius: 10px;
 }
 
 .total{
@@ -45,4 +46,6 @@ h3{
 	font-size: 14px;
 	padding: 5px;
 	font-style: "Open Sans";
+	border-color: white;
+	border-radius: 8px;
 }
