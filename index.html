@@ -4,38 +4,42 @@
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <form>
 	<h1>How much money should I bring?<h1>
-		<h3>This budget calculator represents average spending throughout the five-week program. Cherubs should be prepared to spend more or less than the estimate.<h3>
+		<h3>Although the program covers basic necessities, many cherubs choose to bring spending money. The budget calculator represents average spending throughout the five-week program. <br>
 
-	<h2> Show me how to budget</h2>
+		<br>Try our budget reccomendations, or tailor a budget specific to your needs. Cherubs should be prepared to spend more or less than the estimate.  
+		</h3>
+
+	<h2>How could I budget &nbsp;&nbsp;
 		<div class="example" id="one" style="border:2px solid black;display:inline-block">$100</div> &nbsp;&nbsp;&nbsp;&nbsp;
 		<div class="example" id="two" style="border:2px solid black;display:inline-block">$200</div> &nbsp;&nbsp;&nbsp;&nbsp;
-		<div class="example" id="three"style="border:2px solid black;display:inline-block">$300</div> 
+		<div class="example" id="three"style="border:2px solid black;display:inline-block">$300</div>&nbsp;&nbsp?
+		</h2>
 
-	<h2>How many loads of laundry will you need to wash each week?</h2> <input type="text" name="laundry"><br>
+	<h2>How many loads of laundry will you wash each week?</h2> <input type="text" name="laundry"><br>
 
 	<h2>How many times will you dine out each week?</h2> <input type="text" name="dineout">
 
 	<h2>Snacks</h2>
-		<h3>Do you plan to go shopping for snacks?<br>Check all that apply.</h3>
-			&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="coffee" value="coffee">Coffee<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="fresh" value="fresh">Fresh fruits and vegetables<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="icecream" value="icecream">Ice Cream<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="junk" value="junk">Chips, cookies and other junk food<br>
+		<h3>Check all the snacks you would like to buy.</h3>
+			<input type="checkbox" name="coffee" value="coffee">&nbsp;Coffee<br>
+			<input type="checkbox" name="fresh" value="fresh">&nbsp;Fresh fruits and vegetables<br>
+			<input type="checkbox" name="icecream" value="icecream">&nbsp;Ice Cream<br>
+			<input type="checkbox" name="junk" value="junk">&nbsp;Chips, cookies and other junk food<br>
 
 	<h2>Northwestern Souvenirs</h2>
-		<h3>What is your ideal momento?<br>Check all that apply.</h3>
-			<input type="checkbox" name="sweatshirt" value="sweatshirt">Sweatshirt<br>
-			<input type="checkbox" name="tshirt" value="tshirt">T-shirt<br>
-			<input type="checkbox" name="sweatpants" value="sweatpants">Sweatpants<br>
-			<input type="checkbox" name="waterbottle" value="waterbottle">Water Bottle<br>
+		<h3>Check all the souvenirs you would like to buy.</h3>
+			<input type="checkbox" name="sweatshirt" value="sweatshirt">&nbsp;Sweatshirt <span>($45)</span><br>
+			<input type="checkbox" name="tshirt" value="tshirt">&nbsp;T-shirt <span>($20)</span><br>
+			<input type="checkbox" name="sweatpants" value="sweatpants">&nbsp;Sweatpants <span>($35)</span><br>
+			<input type="checkbox" name="waterbottle" value="waterbottle">&nbsp;Water Bottle <span>($25)</span><br>
 
 	<h2>Other Expenses</h2>
-		<h3>What do you plan to purchase in your free<br>Check all that apply.</h3>
-			<input type="checkbox" name="movie" value="movie">Movie Ticket<br>
-			<input type="checkbox" name="clothes" value="clothes">Clothes Shopping<br>
-			<input type="checkbox" name="books" value="books">Books<br>
-			<input type="checkbox" name="magazine" value="magazine">Newspapers and Magazines<br>
-			<input type="checkbox" name="emergency" value="emergency">Emergency Money<br>
+		<h3>What do you plan to purchase in your free time? Check all that apply.</h3>
+			<input type="checkbox" name="movie" value="movie">&nbsp;Movie Ticket<br>
+			<input type="checkbox" name="clothes" value="clothes">&nbsp;Clothes<br>
+			<input type="checkbox" name="books" value="books">&nbsp;Books<br>
+			<input type="checkbox" name="magazine" value="magazine">&nbsp;Newspapers and Magazines<br>
+			<input type="checkbox" name="emergency" value="emergency">&nbsp;Emergency Money<br>
 
 	<br><input class="button" type="button" value="Calculate my budget" id="calculate"><br>
 		<br><div class="total"id="totalPrice" style="border:2px solid black;display:inline-block">Total</div>

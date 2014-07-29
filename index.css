@@ -20,6 +20,12 @@ h3{
 	font-weight: normal;
 }
 
+span{
+	font-family: "Open Sans";
+	font-style: italic;
+	font-weight: lighter;
+}
+
 .example{
 	font-style: "Open Sans";
 	font-size: 18px;
