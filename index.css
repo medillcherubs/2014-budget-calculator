@@ -16,11 +16,19 @@ h3{
 	font-weight: normal;
 }
 
-div{
+.example{
 	font-style: Georgia;
 	font-size: 18px;
 	color: white;
 	background-color:purple;
 	font-weight: bold;
 	padding: 5px;
+}
+
+.total{
+	background-color: white;
+	font-color: black;
+	font-weight: bold;
+	padding: 5px;
+
 }

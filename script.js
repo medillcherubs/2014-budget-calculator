@@ -4,14 +4,14 @@ jQuery('#calculate').click(function(){
 
 	var dineout=jQuery('[name="dineout"]').val()*50
 
-	var coffee=jQuery('[name="coffee"]:checked').length*7
-	var fresh=jQuery('[name="fresh"]:checked').length*
-	var icecream=jQuery('[name="icecream"]:checked').length*7
-	var junk=jQuery('[name="junk"]:checked').length*
+	var coffee=jQuery('[name="coffee"]:checked').length*30
+	var fresh=jQuery('[name="fresh"]:checked').length*50
+	var icecream=jQuery('[name="icecream"]:checked').length*30
+	var junk=jQuery('[name="junk"]:checked').length*40
 
 	var sweatshirt=jQuery('[name="sweatshirt"]:checked').length*45
 	var tshirt=jQuery('[name="tshirt"]:checked').length*20
-	var sweatpants=jQuery('[name="sweatpants"]:checked').length*35
+	var sweatpants=jQuery('[name="sweatpants"]:checked').length*35 
 	var waterbottle=jQuery('[name="waterbottle"]:checked').length*25
 
 	var movie=jQuery('[name="movie"]:checked').length*10
@@ -21,7 +21,10 @@ jQuery('#calculate').click(function(){
 	var emergency=jQuery('[name="emergency"]:checked').length*25
 
 	var dineout
-	console.log(laundry)
-	console.log("Hello")
+	console.log(laundry+dineout+coffee+fresh+icecream+junk+sweatshirt+tshirt+sweatpants+waterbottle+movie+clothes+books+magazine+emergency)
+	var total=laundry+dineout+coffee+fresh+icecream+junk+sweatshirt+tshirt+sweatpants+waterbottle+movie+clothes+books+magazine+emergency
+	
+	// document.getElementById('totalPrice').innerHTML ="Total Budget:"+total
+	jQuery('#totalPrice').html("Total: $"+total)
 
 })
