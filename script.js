@@ -28,3 +28,31 @@ jQuery('#calculate').click(function(){
 	jQuery('#totalPrice').html("Total: $"+total)
 
 })
+
+jQuery('#one').click(function(){
+	jQuery('[name="laundry"]').val(2)
+	jQuery('[name="dineout"]').val(1)
+	$('input[name=magazine]').attr('checked', true)
+	$('input[name=emergency]').attr('checked', true)
+		jQuery('#calculate').click()
+})
+
+jQuery('#two').click(function(){
+	jQuery('[name="laundry"]').val(2)
+	jQuery('[name="dineout"]').val(2)
+	$('input[name=icecream]').attr('checked', true)
+	$('input[name=waterbottle]').attr('checked', true)
+	$('input[name=emergency]').attr('checked', true)
+		jQuery('#calculate').click()
+})
+
+jQuery('#three').click(function(){
+	jQuery('[name="laundry"]').val(2)
+	jQuery('[name="dineout"]').val(3)
+	$('input[name=icecream]').attr('checked', true)
+	$('input[name=fresh]').attr('checked', true)
+	$('input[name=tshirt]').attr('checked', true)
+	$('input[name=magazine]').attr('checked', true)
+	$('input[name=emergency]').attr('checked', true)
+		jQuery('#calculate').click()
+})
