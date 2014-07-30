@@ -74,3 +74,9 @@ span{
 	margin-left: 3px;
 	font-weight: 500;
 }
+
+.textbox {
+	font-size: 14px;
+padding: 4px;
+width: 50px;
+}
