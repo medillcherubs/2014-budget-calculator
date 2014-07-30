@@ -25,7 +25,7 @@ jQuery('#calculate').click(function(){
 	var total=laundry+dineout+coffee+fresh+icecream+junk+sweatshirt+tshirt+sweatpants+waterbottle+movie+clothes+books+magazine+emergency
 	
 	// document.getElementById('totalPrice').innerHTML ="Total Budget:"+total
-	jQuery('#totalPrice').html("Total: $"+total).css("display", "inline-block");
+	jQuery('#totalPrice').html("Total: $"+total).css("visibility", "visible");
 	if (pymChild) pymChild.sendHeight();
 
 })
